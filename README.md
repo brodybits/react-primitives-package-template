@@ -4,6 +4,10 @@ a clean, easily upgradable React Primitives app or library package starter for R
 
 Note that additional view components such as [`github:brodybits/react-primitives-input`](https://github.com/brodybits/react-primitives-input) and [`github:brodybits/react-primitives-scrollview`](https://github.com/brodybits/react-primitives-scrollview) can be easily created and used with existing React Primitives components.
 
+## How
+
+The scripts will generate web, Expo, and React Native projects that reference the sources in `index.js` and `src` via relative `..` paths, with help from a symlink in case of the react-native-web demo. Multiple workarounds are applied for issues encountered with symlinks on Metro and Webpack.
+
 ## Prerequisites
 
 - Yarn
