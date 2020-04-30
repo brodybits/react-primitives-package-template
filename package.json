@@ -1,0 +1,25 @@
+{
+  "name": "react-primitives-package-template",
+  "version": "0.0.1-dev",
+  "description": "react-primitives package starter for web, expo, & React Native",
+  "main": "index.js",
+  "author": "Christopher J. Brody <chris.brody+brodybits@gmail.com>",
+  "scripts": {
+    "create-expo-demo": "node ./tools/create-expo-demo.js",
+    "create-react-native-demo": "node ./tools/create-react-native-demo.js",
+    "create-web-demo": "node ./tools/create-web-demo.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "MIT",
+  "// dependency notes": [
+    "* node_modules installed from dependencies or devDependencies may",
+    "  lead to issues with Metro",
+    "* create demo scripts will read & add dependencies from peerDependencies",
+    "<end />"
+  ],
+  "peerDependencies": {
+    "react-art": "^16.13.1",
+    "react-primitives": "^0.8.1",
+    "react-native-web": "^0.12.2"
+  }
+}
