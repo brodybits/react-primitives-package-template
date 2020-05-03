@@ -2,6 +2,8 @@
 
 a clean, easily upgradable React Primitives app or library package starter for React Native and react-native-web, with support for testing and deployment through multiple web, Expo, and React Native configurations
 
+This template includes scripts to generate react-native-web, Expo, and React Native demo apps. There is no need to commit the generated demo apps. It is possible to generate demo apps for updated and specific versions of Expo and React Native at any point of time.
+
 Note that additional view components such as [`github:brodybits/react-primitives-input`](https://github.com/brodybits/react-primitives-input) and [`github:brodybits/react-primitives-scrollview`](https://github.com/brodybits/react-primitives-scrollview) can be easily created and used with existing React Primitives components.
 
 ## How
